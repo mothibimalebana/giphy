@@ -7,7 +7,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'App Name',
+      title: 'giphy',
       filename: 'index.html',
       template: './src/index.html',
     }),
