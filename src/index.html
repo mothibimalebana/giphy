@@ -2,8 +2,19 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <img src="#" />
+    <script></script>
+  </body>
 </html>
+<script>
+  const img = document.querySelector('img');
+  fetch(
+    'https://api.giphy.com/v1/gifs/translate?api_key=oqVqtKYI8bdtGH4vFdngKiJ7GGC0wX2I&s=cats',
+    { mode: 'cors' }
+  ).then(function (response) {
+    console.log(response);
+  });
+</script>
